@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 550px;
+}
+
+.header-top {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.header-bottom {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+main {
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-left {
+  height: 1400px;
+  width: 230px;
+  background-color: palegreen;
+}
+
+.main-center {
+  height: 1400px;
+  width: 500px;
+  background-color: green;
+}
+
+.main-right {
+  height: 1400px;
+  width: 230px;
+  background-color: palegreen;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
